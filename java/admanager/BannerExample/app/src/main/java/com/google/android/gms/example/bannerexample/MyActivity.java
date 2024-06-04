@@ -44,7 +44,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class MyActivity extends AppCompatActivity {
 
   // This is an ad unit ID for a test ad. Replace with your own banner ad unit ID.
-  static final String AD_UNIT = "/30497360/adaptive_banner_test_iu/backfill";
+  static final String AD_UNIT = "/21775744923/example/banner";
   private static final String TAG = "MyActivity";
   private final AtomicBoolean isMobileAdsInitializeCalled = new AtomicBoolean(false);
   private final AtomicBoolean initialLayoutComplete = new AtomicBoolean(false);
