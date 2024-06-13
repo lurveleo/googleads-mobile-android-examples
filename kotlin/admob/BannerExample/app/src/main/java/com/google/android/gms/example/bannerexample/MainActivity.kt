@@ -164,11 +164,11 @@ class MainActivity : AppCompatActivity() {
     adView.adUnitId = "ca-app-pub-3940256099942544/9214589741"
     adView.setAdSize(adSize)
 
-    // Create an ad request.
-    val adRequest = AdRequest.Builder().build()
-
+    // [START load_ad]
     // Start loading the ad in the background.
+    val adRequest = AdRequest.Builder().build()
     adView.loadAd(adRequest)
+    // [END load_ad]
   }
 
   private fun initializeMobileAdsSdk() {
